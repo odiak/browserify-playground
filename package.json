@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "$(npm bin)/browserify index.js -o bundle.js"
+    "build": "$(npm bin)/browserify index.js -o bundle.js",
+    "watch": "$(npm bin)/watchify index.js -o bundle.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^13.1.0"
+    "browserify": "^13.1.0",
+    "watchify": "^3.7.0"
   }
 }
