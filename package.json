@@ -1,0 +1,14 @@
+{
+  "name": "browserify-playground",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "$(npm bin)/browserify index.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0"
+  }
+}
